@@ -17,8 +17,10 @@ def calculate(num1, num2, calculation):
         total = num1 #sets total to num1
         total = total * num2 #multiplies total by num2
     else:
+
         return "Issue has occurred" #return a message
     return total #return total
+
 
 print(calculate(1, 2, "+"))
 print(calculate(1, 2, "-"))
