@@ -1,10 +1,10 @@
 # Adds the numbers collected from the user
 def add(num1, num2):
-    pass
+    return num1 + num2
 
 # Subtracts the numbers collected from the user
 def subtract(num1, num2):
-    pass
+    return num1 - num2
 
 # Multiplies the numbers collected from the user
 def multiply(num1, num2):
@@ -12,7 +12,7 @@ def multiply(num1, num2):
 
 # Divides the numbers collected from the user
 def divide(num1, num2):
-    pass
+    return num1 / num2
 
 # Checks that user input is a valid number
 def get_valid_number(prompt):
